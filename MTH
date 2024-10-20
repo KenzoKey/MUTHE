@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muthe JKT48 Fan Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Muthe JKT48 Fan Page</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Muthe</h2>
+        <p>Nurhayati Saida Muthe, lebih dikenal sebagai Muthe JKT48, adalah salah satu member JKT48 yang berbakat. Dengan suara merdu dan tarian yang luar biasa, Muthe adalah idola yang dicintai oleh banyak fans.</p>
+        <img src="muthe.jpg" alt="Muthe JKT48">
+    </section>
+
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <input type="file" id="uploadPhoto" multiple>
+        <div id="photoDisplay"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
